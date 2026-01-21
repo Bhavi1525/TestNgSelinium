@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test name="Test1">
+  <parameter name="browsername" value="Chrome"/>
+  <parameter name="author" value="Bhavani"/>
+    <classes>
+      <class name="ExtentReports.TestClass">
+      <methods>
+      <include name="TestGoogle"/>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  <test name="Test2">
+  <parameter name="browsername" value="Firefox"/>
+  <parameter name="author" value="Thulasi"/>
+    <classes>
+      <class name="ExtentReports.TestClass">
+      <methods>
+      <include name="Assertions"/>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  <test name="Test3">
+  <parameter name="browsername" value="Edge"/>
+  <parameter name="author" value="Vaishu"/>
+    <classes>
+      <class name="ExtentReports.TestClass">
+      <methods>
+      <include name="TestFacebook"/>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<groups>
+<run>
+<include name="Window.*"/>
+</run>
+</groups>
+  <test  name="Test">
+    <classes>
+      <class name="Groups.Group2"/>
+      <class name="Groups.Group1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

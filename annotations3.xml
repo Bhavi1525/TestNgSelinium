@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      
+      <class name="Annotations.Annotations3">
+      <methods>
+      <include name="TestMethod1"/>
+      <include name="TestMethod2"/>
+      </methods>
+      </class>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

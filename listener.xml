@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+<listener class-name="listeners.Itestlistener2"/>
+</listeners>
+  <test name="Test1">
+    <classes>
+      <class name="listeners.TestClass2">
+      <methods>
+      <include name="TestMethod1"/>
+      <include name="TestMethod2"/>
+      </methods>
+      
+      </class>
+    </classes>
+  </test>
+  <test name="Test2">
+    <classes>
+      <class name="listeners.TestClass2">
+      <methods>
+       <include name="TestMethod3"/>
+      <include name="TestMethod4"/>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+</suite> 

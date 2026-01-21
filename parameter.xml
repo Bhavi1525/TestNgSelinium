@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ParameterSuite">
+<parameter name="browsername" value="chrome"/>
+<parameter name="url" value="https://www.facebook.com/"/>
+<parameter name="username" value="mudraboinabhavani07@gmail.com"/>
+<parameter name="password" value="Bhavi@1525"/>
+<parameter name="Sleeptime" value="3000"/>
+  <test name="Test1">
+  <parameter name="browsername" value="edge"/>
+    <classes>
+      <class name="parameters.parameter">
+      <methods>
+     <include name="launchapp" />
+         <include name="status" />
+         <include name="enterlogindetails" />
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  <test name="Test2">
+  <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="parameters.parameter">
+      <methods>
+     <include name="launchapp" />
+         <include name="status" />
+         <include name="enterlogindetails" />
+          <include name="home" />
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  <test name="Test3">
+    <classes>
+      <class name="parameters.parameter">
+      <methods>
+     <include name="launchapp" />
+         <include name="status" />
+          <include name="forget" />
+      </methods>
+      </class>
+    </classes>
+  </test> 
+</suite> 

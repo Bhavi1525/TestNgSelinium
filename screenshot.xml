@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Screenshots.ITestlistener"/>
+	</listeners>
+	<test  name="Test1">
+		<classes>
+			<class name="Screenshots.TestClass">
+			<methods>
+			<include name="TestGoogle"/>
+			</methods>
+			</class>
+		</classes>
+	</test>
+	<test  name="Test2">
+		<classes>
+			<class name="Screenshots.TestClass">
+			<methods>
+			<include name="Assertions"/>
+			</methods>
+			</class>
+		</classes>
+	</test> 
+	<test  name="Test3">
+		<classes>
+			<class name="Screenshots.TestClass">
+			<methods>
+			<include name="TestFacebook"/>
+			</methods>
+			</class>
+		</classes>
+	</test>  
+</suite> 

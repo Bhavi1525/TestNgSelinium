@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="IgnoreSuite">
+  <test  name="Test">
+    <classes>
+      <class name="Ignore.Ignore1" />
+      <class name="Ignore.Ignore2"/>
+    </classes>
+  </test> 
+</suite> 

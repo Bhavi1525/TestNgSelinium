@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<define name="dailyBuild">
+				<include name="smoke" />
+				<include name="sanity" />
+			</define>
+			<define name="weeklyBuild">
+				<include name="regression" />
+				<include name="smoke" />
+				<include name="sanity" />
+				<include name="functional" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Groups.Group1" />
+			<class name="Groups.Group2" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DemoSuite">
+  <test  name="Test1">
+    <classes>
+      <class name="Annotations.Facebookannotation">
+      <methods>
+      <include name="launchapp" />
+         <include name="status" />
+         <include name="enterlogindetails" />
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  <test name="Test2">
+    <classes>
+      <class name="Annotations.Facebookannotation">
+      <methods>
+      <include name="launchapp" />
+         <include name="status" />
+         <include name="enterlogindetails" />
+         <include name="home" />
+      </methods>
+      </class>
+    </classes>
+  </test> 
+    <test  name="Test3">
+    <classes>
+      <class name="Annotations.Facebookannotation">
+      <methods>
+      <include name="launchapp" />
+         <include name="status" />
+         <include name="forget" />
+      </methods>
+      </class>
+    </classes>
+  </test> 
+</suite> 

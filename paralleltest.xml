@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="classes" thread-count="2">
+  <test  name="Test1">
+    <classes>
+      <class name="ParallelTest.TestClass1"/>
+      <class name="ParallelTest.TestClass2"/>
+      <class name="ParallelTest.TestClass3"/>
+    </classes>
+  </test>
+
+<test  name="Test2">
+    <classes>
+      <class name="ParallelTest.TestClass4"/>
+    </classes>
+  </test> 
+</suite> 

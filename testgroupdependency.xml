@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestgroupdependencySuite">
+  <test name="Test">
+  <groups>
+  <dependencies>
+  <group name="sanity" depends-on="smoke"/>
+  <group name="regression" depends-on="sanity"/>
+  </dependencies>
+  </groups>
+    <classes>
+      <class name="dependencygroups.TestGroupdependecy"/>
+    </classes>
+  </test> 
+</suite> 
